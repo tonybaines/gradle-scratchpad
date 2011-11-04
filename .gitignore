@@ -1,0 +1,6 @@
+build
+.gradle
+gradle-scratchpad.iml
+gradle-scratchpad.ipr
+gradle-scratchpad.iws
+out/

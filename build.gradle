@@ -1,0 +1,10 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.6
+
+dependencies {
+    compile 'org.hibernate:hibernate-entitymanager:3.6.8.Final'
+    testCompile 'junit:junit:4.8.2'
+    testRuntime 'com.h2database:h2:1.2.140'
+}
